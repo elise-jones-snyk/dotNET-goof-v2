@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore:
+  snyk:lic:nuget:tinymce:GPL-2.0:
+    - "*":
+        reason: Verified license compliance for internal use.
+
+patch: {}
+exclude:
+  global:
+    - tests/**
